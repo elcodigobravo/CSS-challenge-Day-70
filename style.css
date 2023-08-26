@@ -1,0 +1,47 @@
+body{
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+.container{
+    position: relative;
+    width: 400px;
+    height: 400px;
+    background-color: #512626;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.card{
+    box-sizing: border-box;
+    position: relative;
+    float: left;
+    width: 200px;
+    height: 200px;
+    background-color: #e27474;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    text-align: center;
+    padding-top: 55px;
+
+}
+
+.card .text{
+    display: block;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 120%;
+}
+
+.card .number{
+    display: block;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 100%;
+}
+
+.card:hover{
+    box-shadow: inset 2px 2px 4px 1px rgba(0, 0, 0, 0.212);
+    transform: scale(0.95);
+}
